@@ -7,6 +7,8 @@ conference server.
 This experiment uses a *fat* Docker container to run all required services: SylkServer and the Sylk WebRTC client.
 SylkServer will be listening on port **10888** for WebSocket traffic and port **3000** for the main interface.
 
+**NOTE**: It does not work on Docker for macOS due to its [networking limitations](https://docs.docker.com/docker-for-mac/networking/).
+
 ## Running the image
 
 ```
