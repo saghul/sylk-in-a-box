@@ -1,5 +1,5 @@
 FROM phusion/baseimage:latest
-MAINTAINER saghul <saghul@gmail.com>
+MAINTAINER Saúl Ibarra Corretgé <saghul@gmail.com>
 
 ADD files /files
 
