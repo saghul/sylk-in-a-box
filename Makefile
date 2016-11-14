@@ -1,5 +1,5 @@
 NAME = saghul/sylk-in-a-box
-VERSION = 0.1.0
+VERSION = 0.1.1
 
 
 .PHONY: all build run
