@@ -9,7 +9,9 @@ SylkServer will be listening on port **10888** for WebSocket traffic and port **
 
 ## Running the image
 
-TODO
+```
+    docker run -p 3000:3000 -p 10888:10888 --rm --name sylk-in-a-box -t -i saghul/sylk-in-a-box
+```
 
 ## Building the image yourself
 
