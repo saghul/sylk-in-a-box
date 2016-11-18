@@ -5,7 +5,7 @@ source /files/scripts/helpers
 set -x
 
 
-$minimal_apt_get_install sylkserver-webrtc-gateway nodejs nodejs-legacy npm git-core
+$minimal_apt_get_install sylkserver-webrtc-gateway nodejs nodejs-legacy npm git-core nginx-light
 npm install -g yarn
 
 mkdir -p /opt

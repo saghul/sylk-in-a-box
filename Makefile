@@ -1,5 +1,5 @@
 NAME = saghul/sylk-in-a-box
-VERSION = 0.1.1
+VERSION = 0.2.0
 
 
 .PHONY: all build run
@@ -10,4 +10,4 @@ build:
 	docker build -t $(NAME):$(VERSION) .
 
 run:
-	-docker run -p 3000:3000 -p 10888:10888 --rm --name sylk-in-a-box -t -i $(NAME):$(VERSION) /sbin/my_init -- bash -l
+	-docker run -p 3000:443 --rm --name sylk-in-a-box -t -i $(NAME):$(VERSION) /sbin/my_init -- bash -l

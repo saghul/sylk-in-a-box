@@ -9,7 +9,7 @@ const configOptions = {
     enrollmentUrl           : 'https://example.com',
     defaultConferenceDomain : `videoconference.${defaultDomain}`,
     defaultGuestDomain      : `guest.${defaultDomain}`,
-    wsServer                : `wss://${window.location.hostname}:10888/webrtcgateway/ws`,
+    wsServer                : `wss://${window.location.host}/ws`,
     iceServers              : [{urls: 'stun:stun.l.google.com:19302'}]
 };
 

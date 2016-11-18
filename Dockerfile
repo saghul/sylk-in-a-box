@@ -8,8 +8,7 @@ RUN /files/scripts/prepare.sh && \
     /files/scripts/config.sh && \
     /files/scripts/cleanup.sh
 
-EXPOSE 3000
-EXPOSE 10888
+EXPOSE 443
 
 CMD ["/sbin/my_init"]
 

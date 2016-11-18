@@ -12,5 +12,7 @@ cp /files/config/sylkserver/config.ini /etc/sylkserver/
 # Janus
 cp -r /files/services/janus /etc/service/
 
-# Sylk
-cp -r /files/services/sylk /etc/service/
+# Nginx
+cp /files/config/nginx/nginx.conf /etc/nginx/
+cp -r /files/services/nginx /etc/service/
+
