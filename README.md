@@ -14,6 +14,12 @@ This experiment uses a *fat* Docker container to run all required services: Sylk
     docker run -p 3000:443 --rm --name sylk-in-a-box -t -i saghul/sylk-in-a-box
 ```
 
+Then visit the following URL:
+
+```
+    https://localhost:3000
+```
+
 ## Building the image yourself
 
 To build the image:
@@ -33,18 +39,6 @@ Run it in an interactive shell:
 Web browsers will refuse to work with a WebRTC website unless it's visited using a "secure origin".  For
 this example we are using a self-signed certificate, so you'll need to accept it in / add an exception
 in order for the demo to work.
-
-First get the container IP:
-
-```
-    docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' sylk-in-a-box
-```
-
-Then visit the container URL:
-
-```
-    https://THE_IP:3000
-```
 
 ## References
 
